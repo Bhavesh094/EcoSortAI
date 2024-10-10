@@ -7,7 +7,7 @@ from PIL import Image
 import time
 
 # Load the trained model
-model = load_model(r"C:\Users\Bhavesh\Downloads\Project SEM V\Project SEM V\Image_classif.keras")
+model = load_model('model/Image_classif.keras')
 
 # Define categories
 data_cat = ['Organic', 'Recyclable']
