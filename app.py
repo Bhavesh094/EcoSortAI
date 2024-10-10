@@ -1,7 +1,7 @@
 import tensorflow as tf
 import streamlit as st
 import numpy as np
-from opencv import cv2
+import cv2
 from tensorflow.keras.models import load_model
 from PIL import Image
 import time
